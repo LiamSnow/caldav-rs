@@ -1,0 +1,13 @@
+[package]
+name = "caldav-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+dotenv = "0.15.0"
+minidom = "0.16.0"
+reqwest = "0.12.9"
+url = "2.5.4"
+ical = { path = "../ical-rs" }
+tokio = { version = "1.42.0", features = ["full"] }
